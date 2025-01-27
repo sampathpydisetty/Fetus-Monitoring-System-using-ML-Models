@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetus Monitoring Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Fetus Monitoring Prediction</h1>
+        <form action="/predict" method="POST">
+            <label for="heart_rate">Heart Rate:</label>
+            <input type="text" id="heart_rate" name="heart_rate" required><br>
+
+            <label for="movement">Movement:</label>
+            <input type="text" id="movement" name="movement" required><br>
+
+            <label for="oxygen_level">Oxygen Level:</label>
+            <input type="text" id="oxygen_level" name="oxygen_level" required><br>
+
+            <label for="temperature">Temperature:</label>
+            <input type="text" id="temperature" name="temperature" required><br>
+
+            <label for="blood_pressure">Blood Pressure:</label>
+            <input type="text" id="blood_pressure" name="blood_pressure" required><br>
+
+            <label for="respiration_rate">Respiration Rate:</label>
+            <input type="text" id="respiration_rate" name="respiration_rate" required><br>
+
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
