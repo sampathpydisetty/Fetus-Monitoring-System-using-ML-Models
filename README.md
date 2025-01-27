@@ -1,7 +1,3 @@
-Here’s a structured GitHub README for your project "Fetus Monitoring System," based on the content in the provided document:
-
----
-
 # Fetus Monitoring System
 
 ## Overview
