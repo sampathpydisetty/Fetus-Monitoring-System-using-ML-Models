@@ -135,7 +135,3 @@ The repository contains the following files:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Let me know if you'd like further customization or any additional sections in the README!
